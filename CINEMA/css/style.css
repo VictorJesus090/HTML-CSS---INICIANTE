@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.hoje {
+  color: darkred;
+}
+.amanha {
+  color: darkblue;
+}
+.coresc {
+  color: seagreen;
+}
+h2 {
+  color: seagreen;
+}
+
+p {
+  font-size: 20px;
+}
+.inicio {
+  font-size: 16px;
+}
