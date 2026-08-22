@@ -1,0 +1,44 @@
+* {
+  font-family: arial;
+}
+body {
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 80px;
+}
+
+h2,
+strong {
+  font-size: 50px;
+  color: white;
+  margin: 0;
+}
+span {
+  color: #febe01;
+}
+.carro {
+  margin: 50px;
+  background-color: #111;
+  color: #b2b2b2;
+  padding: 50px;
+  border: solid 1px;
+  border-radius: 6px;
+  font-size: 25px;
+}
+
+.botao {
+  background-color: #febe01;
+  color: black;
+  width: 250px;
+  padding: 20px;
+  border: solid 3px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 25px;
+  display: inline-block;
+  text-decoration: none;
+}
