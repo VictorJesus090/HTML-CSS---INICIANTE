@@ -1,0 +1,58 @@
+* {
+  padding: 30px;
+  margin: 0px;
+  background: #cccccc;
+  font-family: "Poppins", sans-serif;
+}
+.cabecalho {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 50%;
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  text-align: end;
+  padding: 20px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #666666;
+}
+h1 {
+  color: #1a1a1a;
+}
+
+.introducao {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.verproejetos {
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  background: #1a1a1a;
+  color: white;
+  margin: 20px 300px;
+  padding: 10px 20px;
+}
+.projetos {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.rodape {
+  text-align: center;
+}
