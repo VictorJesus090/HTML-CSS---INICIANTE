@@ -1,58 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
-  padding: 30px;
   margin: 0px;
-  background: #cccccc;
-  font-family: "Poppins", sans-serif;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightcyan;
 }
 .cabecalho {
-  margin-top: 40px;
   display: flex;
-  align-items: center;
-  gap: 50%;
-  font-size: 20px;
+  justify-content: space-around;
+  gap: 35em;
+  margin-top: 2em;
+  font-size: 1.5em;
 }
 
-.nav {
-  display: flex;
-  text-align: end;
-  padding: 20px;
-  font-size: 20px;
-  justify-content: space-between;
-}
-a {
+.nav a {
+  font-size: 1em;
   text-decoration: none;
-  color: #666666;
+  color: black;
+  margin: 1em;
 }
-h1 {
-  color: #1a1a1a;
-}
-
-.introducao {
-  display: grid;
-  justify-content: center;
-  margin-top: 100px;
-  font-size: 20px;
+.main {
   text-align: center;
+  margin-top: 20vh;
 }
 
-h2 {
-  font-size: 40px;
+.main h2 {
+  font-size: 2.1em;
+  margin: 30px 0px;
 }
-
 .verproejetos {
-  display: block;
-  text-align: center;
-  box-sizing: border-box;
-  background: #1a1a1a;
-  color: white;
-  margin: 20px 300px;
-  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #80cbc4;
+  padding: 20px;
+  border-radius: 0.5em;
+  text-decoration: none;
+  color: black;
 }
-.projetos {
-  margin-top: 30px;
+
+.projetogeral {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 5em;
+  margin-top: 15em;
 }
+.speedflow {
+  background-color: white;
+  border: 1px solid #80cbc4;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  text-align: center;
+  gap: 2em;
+}
+
+.speedflow a {
+  text-decoration: none;
+  color: black;
+}
+
+.vidaplena {
+  background-color: white;
+  border: 1px solid #80cbc4;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  text-align: center;
+  gap: 2em;
+}
+.vidaplena a {
+  text-decoration: none;
+  color: black;
+}
+
+.github {
+  background-color: white;
+  border: 1px solid #80cbc4;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  text-align: center;
+  gap: 2em;
+}
+.github a {
+  text-decoration: none;
+  color: black;
+}
+
 .rodape {
   text-align: center;
+  margin-top: 7em;
 }

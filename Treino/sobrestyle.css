@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightcyan;
+}
+.nav a {
+  color: black;
+  font-size: 30px;
+}
+.foto {
+  text-align: center;
+}
+.sobre {
+  margin: 20px;
+  text-align: center;
+  justify-items: center;
+}
+.sobre p {
+  margin-top: 20px;
+  text-align: center;
+  width: 1000px;
+}
+.corpo {
+  text-align: center;
+  margin: 20px;
+}
+
+.skills {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.html {
+  background-color: white;
+  border: 1px solid #80cbc4;
+  display: flex;
+  width: 150px;
+  flex-direction: column;
+  padding: 1.5em;
+  text-align: center;
+  gap: 2em;
+  border-radius: 16px;
+}
+.css {
+  background-color: white;
+  border: 1px solid #80cbc4;
+  display: flex;
+  width: 150px;
+  flex-direction: column;
+  padding: 1.5em;
+  text-align: center;
+  gap: 2em;
+  border-radius: 16px;
+}
+.javascript {
+  background-color: white;
+  border: 1px solid #80cbc4;
+  display: flex;
+  border-radius: 16px;
+  flex-direction: column;
+  padding: 1.5em;
+  text-align: center;
+  gap: 2em;
+}
